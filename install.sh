@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# !!! UNFINISHED !!! 
 
 echo "Do NOT run this script as root, it WILL mess up your system."
 echo "Checking if running as root"
