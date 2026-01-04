@@ -18,7 +18,7 @@ try {
     Set-Location -Path $HOME -ErrorAction Stop
 }
 catch {
-    Write-Host "Failed to cd into HOME" -ForegroundColor Red
+    Write-Host "Failed to cd into installation directory" -ForegroundColor Red
     exit 1
 }
 
