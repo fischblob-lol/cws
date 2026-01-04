@@ -3,7 +3,7 @@
 
 echo "Do NOT run this script as root, it WILL mess up your system."
 echo "Checking if running as root"
-
+echo "The script is not done yet, it wont install anything except clone the repo!"
 # Check if script is run as root
 if [ "$EUID" -eq 0 ]; then
     echo "Do not run this script as root, aborting!"

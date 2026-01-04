@@ -2,6 +2,7 @@
 # !!! UNFINISHED !!!
 Write-Host "Do NOT run this script as adminstrator,it might mess up your system or other stuff" -ForegroundColor Yellow
 Write-Host "Checking if running as root" -ForegroundColor Cyan
+Write-Host "The script is not done yet! It wont do anything except clone the repository." -ForegroundColor Red
 
 # Checks before installation
 $currentPrincipal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
