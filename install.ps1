@@ -1,5 +1,5 @@
 # install.ps1
-
+# !!! UNFINISHED !!!
 Write-Host "Do NOT run this script as root, it WILL mess up your system." -ForegroundColor Yellow
 Write-Host "Checking if running as root" -ForegroundColor Cyan
 
